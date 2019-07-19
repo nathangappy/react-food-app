@@ -1,0 +1,20 @@
+.headerComponent {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    border-bottom: 5px solid #333;
+    justify-content: space-between;
+}
+
+.headerComponent h1 {
+    font-size: 3.2rem;
+    align-self: center;
+}
+
+@media(max-width: 600px) {
+    .headerComponent {
+        flex-direction: column;
+        height: auto;
+        padding: 25px 0;
+    }
+}
