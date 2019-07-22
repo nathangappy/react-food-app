@@ -1,0 +1,19 @@
+.pictureGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+@media(max-width: 1100px){
+  .pictureGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media(max-width: 600px){
+  .pictureGrid {
+    grid-template-columns: 1fr;
+    align-content: center;
+    text-align: center;
+  }
+}
